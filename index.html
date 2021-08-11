@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--styles-->
+    <link rel="stylesheet" href="./styles.css">
+    <!--font-awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <!--bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha384-GNFwBvfVxBkLMJpYMOABq3c+d3KnQxudP/mGPkzpZSTYykLBNsZEnG2D9G/X/+7D" crossorigin="anonymous" async></script>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <title>VancouverProject</title>
+</head>
+<body>
+    <!--navbar-->
+    <div class="content">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Navbar</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0" id="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active a-nav" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link a-nav" href="#">About Us</a>
+                  </li>
+    
+                  <li class="nav-item">
+                    <a class="nav-link a-nav" href="#">Contact Us</a>
+                  </li>
+                </ul>
+                
+                <ul class="navbar-nav ml-auto mb-2 mb-lg-0 right-nav">
+                    <li class="nav-item">
+                      <a class="nav-link" href="#"><i class="fab fa-facebook rounded "></i></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#"><i class="fab fa-instagram rounded "></i></a>
+                    </li>
+      
+                    <li class="nav-item">
+                      <a class="nav-link" href="#"><i class="fab fa-twitter rounded"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        </nav>
+        <div class="title">
+            <h1 class="fs-4 fw-normal text-start">
+                FIND EVENTS AROUND YOU AT ONE GLANCE
+            </h1>
+        </div>
+        <!--menu-->
+        <div class="menu d-md-flex" id="menu">
+            <button class="btn btn-sm me-md-2 fw-bolder shadow-none rounded all" type="button">All Events</button>
+            <button class="btn btn-sm me-md-2 fw-bolder shadow-none rounded" type="button">North Vancouver</button>
+            <button class="btn btn-sm me-md-2 fw-bolder shadow-none rounded" type="button">West Vancouver</button>
+            <button class="btn btn-sm me-md-2 fw-bolder shadow-none rounded" type="button">Vancouver</button>
+        </div>
+        <!--events-->
+        <div class="events container">
+            <div class="gallery-container  w-2 h-2">
+                <div class="gallery-item">
+                    <div class="image">
+                        <img src="https://source.unsplash.com/1600x900/?tech" class="rounded" alt="tech">
+                    </div>
+                    <div class="text">
+                        <p class="text-start fs-6">August 06</p>
+                        <h6 class="text-start fs-4">Tech Event</h6>
+                        <p class="text-start">Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br> 
+                            Eaque dolore possimus, laudantium aliquam ut <br> 
+                            maiores illo quis repudiandae fugit excepturi quidem numquam.
+                        </p>                   
+                        <div class="w">
+                            <span class="text-start"><i class="far fa-clock"></i> 6:00 PM</span>
+                            <span class="text-start"><i class="fas fa-map-marker-alt"></i>480 Broughton St, Vancouver, BC V6G 3H4</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="gallery-container w-2 h-3">
+                <div class="gallery-item">
+                    <div class="image">
+                        <img src="https://source.unsplash.com/1600x900/?library" class="rounded" alt="library">
+                    </div>
+                    <div class="text">
+                        <p class="text-start fs-6">August 06</p>
+                        <h6 class="text-start fs-4">library Event</h6>
+                        <p class="text-start">Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br> 
+                            Eaque dolore possimus, laudantium aliquam ut <br> 
+                            maiores illo quis repudiandae fugit excepturi quidem numquam.
+                        </p>                   
+                        <div class="w">
+                            <span class="text-start"><i class="far fa-clock"></i> 6:00 PM</span>
+                            <span class="text-start"><i class="fas fa-map-marker-alt"></i>480 Broughton St, Vancouver, BC V6G 3H4</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="gallery-container w-2 h-2">
+                <div class="gallery-item">
+                    <div class="image">
+                        <img src="https://source.unsplash.com/1600x900/?space" class="rounded" alt="space">
+                    </div>
+                    <div class="text">
+                        <p class="text-start fs-6">August 06</p>
+                        <h6 class="text-start fs-4">Space Event</h6>
+                        <p class="text-start">Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br> 
+                            Eaque dolore possimus, laudantium aliquam ut <br> 
+                            maiores illo quis repudiandae fugit excepturi quidem numquam.
+                        </p>                   
+                        <div class="w">
+                            <span class="text-start"><i class="far fa-clock"></i> 6:00 PM</span>
+                            <span class="text-start"><i class="fas fa-map-marker-alt"></i>480 Broughton St, Vancouver, BC V6G 3H4</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="gallery-container w-2 h-2">
+                <div class="gallery-item">
+                    <div class="image">
+                        <img src="https://source.unsplash.com/1600x900/?travel" class="rounded" alt="travel">
+                    </div>
+                    <div class="text">
+                        <p class="text-start fs-6">August 06</p>
+                        <h6 class="text-start fs-4">Travel Event</h6>
+                        <p class="text-start">Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br> 
+                            Eaque dolore possimus, laudantium aliquam ut <br> 
+                            maiores illo quis repudiandae fugit excepturi quidem numquam.
+                        </p>                   
+                        <div class="w">
+                            <span class="text-start"><i class="far fa-clock"></i> 6:00 PM</span>
+                            <span class="text-start"><i class="fas fa-map-marker-alt"></i>480 Broughton St, Vancouver, BC V6G 3H4</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="gallery-container w-2 h-3">
+                <div class="gallery-item">
+                    <div class="image">
+                        <img src="https://source.unsplash.com/1600x900/?music" class="rounded" alt="music">
+                    </div>
+                    <div class="text">
+                        <p class="text-start fs-6">August 06</p>
+                        <h6 class="text-start fs-4">Music Event</h6>
+                        <p class="text-start">Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br> 
+                            Eaque dolore possimus, laudantium aliquam ut <br> 
+                            maiores illo quis repudiandae fugit excepturi quidem numquam.
+                        </p>                   
+                        <div class="w">
+                            <span class="text-start"><i class="far fa-clock"></i> 6:00 PM</span>
+                            <span class="text-start"><i class="fas fa-map-marker-alt"></i>480 Broughton St, Vancouver, BC V6G 3H4</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="gallery-container w-2 h-2">
+                <div class="gallery-item">
+                    <div class="image">
+                        <img src="https://source.unsplash.com/1600x900/?nature" class="rounded" alt="nature">
+                    </div>
+                    <div class="text">
+                        <p class="text-start fs-6">August 06</p>
+                        <h6 class="text-start fs-4">Nature Event</h6>
+                        <p class="text-start">Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br> 
+                            Eaque dolore possimus, laudantium aliquam ut <br> 
+                            maiores illo quis repudiandae fugit excepturi quidem numquam.
+                        </p>                   
+                        <div class="w">
+                            <span class="text-start"><i class="far fa-clock"></i> 6:00 PM</span>
+                            <span class="text-start"><i class="fas fa-map-marker-alt"></i>480 Broughton St, Vancouver, BC V6G 3H4</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="gallery-container w-2 h-3" >
+                <div class="gallery-item">
+                    <div class="image">
+                        <img src="https://source.unsplash.com/1600x900/?people" class="rounded" alt="people">
+                    </div>
+                    <div class="text">
+                        <p class="text-start fs-6">August 06</p>
+                        <h6 class="text-start fs-4">People Event</h6>
+                        <p class="text-start">Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br> 
+                            Eaque dolore possimus, laudantium aliquam ut <br> 
+                            maiores illo quis repudiandae fugit excepturi quidem numquam.
+                        </p>                   
+                        <div class="w">
+                            <span class="text-start"><i class="far fa-clock"></i> 6:00 PM</span>
+                            <span class="text-start"><i class="fas fa-map-marker-alt"></i>480 Broughton St, Vancouver, BC V6G 3H4</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="gallery-container w-2 h-3">
+                <div class="gallery-item">
+                    <div class="image">
+                        <img src="https://source.unsplash.com/1600x900/?sport" class="rounded" alt="sport">
+                    </div>
+                    <div class="text">
+                        <p class="text-start fs-6">August 06</p>
+                        <h6 class="text-start fs-4">Sport Event</h6>
+                        <p class="text-start">Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br> 
+                            Eaque dolore possimus, laudantium aliquam ut <br> 
+                            maiores illo quis repudiandae fugit excepturi quidem numquam.
+                        </p>                   
+                        <div class="w">
+                            <span class="text-start"><i class="far fa-clock"></i> 6:00 PM</span>
+                            <span class="text-start"><i class="fas fa-map-marker-alt"></i>480 Broughton St, Vancouver, BC V6G 3H4</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="gallery-container w-2 h-2 ">
+                <div class="gallery-item">
+                    <div class="image">
+                        <img src="https://source.unsplash.com/1600x900/?street" class="rounded" alt="street">
+                    </div>
+                    <div class="text">
+                        <p class="text-start fs-6">August 06</p>
+                        <h6 class="text-start fs-4">Street Event</h6>
+                        <p class="text-start">Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br> 
+                            Eaque dolore possimus, laudantium aliquam ut <br> 
+                            maiores illo quis repudiandae fugit excepturi quidem numquam.
+                        </p>                   
+                        <div class="w">
+                            <span class="text-start"><i class="far fa-clock"></i> 6:00 PM</span>
+                            <span class="text-start"><i class="fas fa-map-marker-alt"></i>480 Broughton St, Vancouver, BC V6G 3H4</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="gallery-container w-2 h-2">
+                <div class="gallery-item">
+                    <div class="image">
+                        <img src="https://source.unsplash.com/1600x900/?sea" class="rounded" alt="sea">
+                    </div>
+                    <div class="text">
+                        <p class="text-start fs-6">August 06</p>
+                        <h6 class="text-start fs-4">Sea Event</h6>
+                        <p class="text-start">Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br> 
+                            Eaque dolore possimus, laudantium aliquam ut <br> 
+                            maiores illo quis repudiandae fugit excepturi quidem numquam.
+                        </p>                   
+                        <div class="w">
+                            <span class="text-start"><i class="far fa-clock"></i> 6:00 PM</span>
+                            <span class="text-start"><i class="fas fa-map-marker-alt"></i>480 Broughton St, Vancouver, BC V6G 3H4</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--subcribe-->
+        <div class="footer wrapper">
+            <h2 class="fs-2 fw-normal text-center">Subscribe our newsletter</h2>
+            <div class="newsletter">
+                <input type="text" class="input" placeholder="Enter Your Email...">
+                <i class="fas fa-envelope"></i>
+                <div class="btn-subs">Subscribe</div>
+            </div>
+        </div>
+
+
+        <div class="container social-media-footer">
+            <ul>
+                <li>
+                  <a href="#"><i class="fab fa-facebook rounded "></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fab fa-instagram rounded "></i></a>
+                </li>
+  
+                <li>
+                  <a href="#"><i class="fab fa-twitter rounded"></i></a>
+                </li>
+            </ul>
+        </div>
+        <div class="copy">
+            <p class="text-center fs-6 fw-lighter">&copy;Developed By Hamid Jafari</p>
+            <a href="https://github.com/hamiidjafarii" ><i class="rounded-circle fab fa-github"></i></a>
+        </div>
+
+
+
+
+
+
+
+
+
+        
+
+
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    </div>
+
+<script src="./content.js"></script>
+</body>
+</html>
